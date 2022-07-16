@@ -1,44 +1,53 @@
+import CartWidget from ".//CartWidget";
+import Head from "./Head";
 import "./NavBar.css";
 
-function NavBar() {
+const NavBar = () => {
   return (
-    <div>
-      <img
-        src="./logograficaero.png"
-        width="180px"
-        class="logo"
-        alt=""
-      ></img>
+    <>
+      <Head />
+      <div className="nav">
+        <div className="wrapper">
+          <div className="button">
+            <div className="icon">
+              <a href="g">
+                <i className="fa-solid fa-users"></i>
+              </a>
+            </div>
+            <span>Nosotros</span>
+          </div>
 
-      <ul className="floating-nav">
-        <li>
-          <a href="g" data-text="Home" className="nav-link active">
-            <i className="fas fa-home"></i>
-          </a>
-        </li>
-        <li>
-          <a href="g" data-text="About" className="nav-link">
-            <i className="fas fa-user"></i>
-          </a>
-        </li>
-        <li>
-          <a href="g" data-text="Portfolio" className="nav-link">
-            <i className="fas fa-suitcase"></i>
-          </a>
-        </li>
-        <li>
-          <a href="g" data-text="Contact" className="nav-link">
-            <i className="fas fa-phone-alt"></i>
-          </a>
-        </li>
-        <li>
-          <a href="g" data-text="Services" className="nav-link">
-            <i className="fas fa-tools"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  );
+          <div className="button">
+            <div className="icon">
+              <a href="g">
+                <i className="fa-solid fa-briefcase"></i>
+              </a>
+            </div>
+            <span>Portfolio</span>
+          </div>
+
+          <div className="button">
+            <div className="icon">
+              <a href="g">
+                <i className="fa-solid fa-shop"></i>
+              </a>
+            </div>
+            <span>Tienda</span>
+          </div>
+
+          <div className="button">
+            <div className="icon">
+              <a href="g">
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+            <span>Contacto</span>
+          </div>
+          <CartWidget />
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default NavBar;
