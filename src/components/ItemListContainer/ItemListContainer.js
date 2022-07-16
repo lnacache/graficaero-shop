@@ -1,6 +1,6 @@
 import "./ItemListContainer.css";
 
-const ItemListContainer = () => {
+const ItemListContainer = (delta) => {
   return (
     <div className="item">
       <b>Productos Destacados</b>
