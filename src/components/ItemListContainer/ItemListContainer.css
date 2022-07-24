@@ -1,6 +1,13 @@
-.item {
-    float: left;
-    width: 100%;
-    padding-top: 20px;
-    padding-left: 20px;
+.list-products {
+padding: 1em;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-gap: 5px;
+}
+
+.headline{
+    padding: 10px;
+    display: grip;
+    text-align: center;
+    text-transform: uppercase;
 }

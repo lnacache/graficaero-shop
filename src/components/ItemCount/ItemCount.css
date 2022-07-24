@@ -1,0 +1,19 @@
+.countProd {
+padding: 1em;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px;
+}
+
+.countProd p {
+    font-size: 25px;
+    justify-content: center;
+}
+
+.countProd button {
+    background-color: transparent;
+    padding: 1px;
+    font-size: 25px;
+    margin: 10px;
+    border: transparent;
+}

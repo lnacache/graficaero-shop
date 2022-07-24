@@ -4,7 +4,7 @@ function CartWidget() {
   return (
     <div className="button">
       <div className="icon">
-        <a href="g">
+        <a href="#">
           <i class="fa-solid fa-cart-shopping"></i>
         </a>
       </div>

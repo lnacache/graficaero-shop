@@ -6,7 +6,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <ItemListContainer />
+      <div clasName='main-container'>
+        <ItemListContainer />
+      </div>
     </div>
   );
 }

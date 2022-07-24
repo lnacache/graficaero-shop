@@ -1,0 +1,8 @@
+.head {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    box-shadow: 1px 3px 5px #e7e7e7;
+    justify-content: center;
+    padding: 10px 20px;
+}

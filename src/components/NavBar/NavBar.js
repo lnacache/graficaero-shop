@@ -1,6 +1,7 @@
-import CartWidget from ".//CartWidget";
-import Head from "./Head";
 import "./NavBar.css";
+import CartWidget from "./CartWidget/CartWidget";
+import Head from "./Head/Head";
+
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
         <div className="wrapper">
           <div className="button">
             <div className="icon">
-              <a href="g">
+              <a href="#">
                 <i className="fa-solid fa-users"></i>
               </a>
             </div>
@@ -19,7 +20,7 @@ const NavBar = () => {
 
           <div className="button">
             <div className="icon">
-              <a href="g">
+              <a href="#">
                 <i className="fa-solid fa-briefcase"></i>
               </a>
             </div>
@@ -28,7 +29,7 @@ const NavBar = () => {
 
           <div className="button">
             <div className="icon">
-              <a href="g">
+              <a href="#">
                 <i className="fa-solid fa-shop"></i>
               </a>
             </div>
@@ -37,7 +38,7 @@ const NavBar = () => {
 
           <div className="button">
             <div className="icon">
-              <a href="g">
+              <a href="#">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
             </div>
@@ -47,7 +48,7 @@ const NavBar = () => {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default NavBar;

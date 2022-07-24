@@ -1,1 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    float: left;
+    width: 100%;
+    padding: 0 30px;
+}
