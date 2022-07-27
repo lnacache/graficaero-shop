@@ -1,17 +1,17 @@
 import "./Item.css";
 import ItemCount from "../ItemCount/ItemCount";
 
-const ItemDetail = ({ data }) => {
-  const { title, image, price } = data;
+const ItemDetail = ({ data }) => { 
+  const { title, image, price, stock } = data;
 
   return (
     <div className="item-product">
       <img src={`/assets/${image}`} alt="Producto" />
       <p>{title}</p>
-      <p>$ {price}</p>
-      <button type="button" class="btn btn-primary">
-        Detalles
-      </button>
+      <span>$ {price}</span>
+      <p>Stock: {stock}</p>
+      <ItemCount stock={stock} />
+      <button>Comprar</button>
     </div>
   );
 };
