@@ -1,7 +1,7 @@
 import "./Item.css";
 import ItemCount from "../ItemCount/ItemCount";
 
-const Item = ({ data }) => {
+const ItemDetail = ({ data }) => { 
   const { title, image, price, stock } = data;
 
   return (
@@ -16,4 +16,4 @@ const Item = ({ data }) => {
   );
 };
 
-export default Item;
+export default ItemDetail;

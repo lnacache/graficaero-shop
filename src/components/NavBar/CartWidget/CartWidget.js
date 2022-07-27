@@ -2,13 +2,13 @@ import "./CartWidget.css";
 
 function CartWidget() {
   return (
-    <div className="button">
-      <div className="icon">
-        <a href="#">
+    <div>
+      <div class="nav-item alfa">
+        <a class="nav-link active" href="g">
           <i class="fa-solid fa-cart-shopping"></i>
+          Carrito
         </a>
       </div>
-      <span>Carrito</span>
     </div>
   );
 }

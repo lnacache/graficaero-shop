@@ -1,54 +1,59 @@
 import "./NavBar.css";
 import CartWidget from "./CartWidget/CartWidget";
-import Head from "./Head/Head";
-
 
 const NavBar = () => {
   return (
-    <>
-      <Head />
-      <div className="nav">
-        <div className="wrapper">
-          <div className="button">
-            <div className="icon">
-              <a href="#">
-                <i className="fa-solid fa-users"></i>
+    <nav class="navbar navbar-light navbar-expand-md fixed-bottom back">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="g">
+          <img src="/assets/logoartebocono.png" width="120px" alt="Nav" />
+        </a>
+        <button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-3"
+        >
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-3">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item alfa">
+              <a class="nav-link active" href="g">
+                <i class="fa-solid fa-house"></i>
+                Inicio
               </a>
-            </div>
-            <span>Nosotros</span>
-          </div>
-
-          <div className="button">
-            <div className="icon">
-              <a href="#">
-                <i className="fa-solid fa-briefcase"></i>
+            </li>
+            <li class="nav-item alfa">
+              <a class="nav-link active" href="g">
+                <i class="fa-solid fa-store"></i>
+                Tienda
               </a>
-            </div>
-            <span>Portfolio</span>
-          </div>
-
-          <div className="button">
-            <div className="icon">
-              <a href="#">
-                <i className="fa-solid fa-shop"></i>
+            </li>
+            <li class="nav-item alfa">
+              <a class="nav-link active" href="g">
+                <i class="fa-solid fa-people-group"></i>
+                Nosotros
               </a>
-            </div>
-            <span>Tienda</span>
-          </div>
-
-          <div className="button">
-            <div className="icon">
-              <a href="#">
-                <i className="fa-brands fa-whatsapp"></i>
+            </li>
+            <li class="nav-item alfa">
+              <a class="nav-link active" href="g">
+                <i class="fa-solid fa-phone"></i>
+                Contacto
               </a>
-            </div>
-            <span>Contacto</span>
-          </div>
+            </li>
+            <li class="nav-item alfa">
+              <a class="nav-link active" href="g">
+                <i class="fa-solid fa-circle-question"></i>
+                FAQ
+              </a>
+            </li>
+          </ul>
           <CartWidget />
         </div>
       </div>
-    </>
+    </nav>
   );
-}
+};
 
 export default NavBar;
