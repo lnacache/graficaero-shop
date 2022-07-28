@@ -1,13 +1,34 @@
 .list-products {
-padding: 1em;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-gap: 5px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
 
-.headline{
+.headline {
     padding: 10px;
     display: grip;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+    .list-products {
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .list-products {
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        font-size: 14px;
+    }
 }

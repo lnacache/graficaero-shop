@@ -1,7 +1,10 @@
 .back {
-    background-color: #DBFDFF;
-    padding-top: 0px;
+    background-color: white;
     padding-bottom: 0px;
+}
+
+.back h7 {
+    color: #006DFF;
 }
 
 .bs-icon {
@@ -61,6 +64,6 @@
     border-radius: 50%;
 }
 
-.alfa{
+.alfa {
     font-size: 18px;
 }

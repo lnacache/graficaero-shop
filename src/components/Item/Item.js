@@ -1,5 +1,4 @@
 import "./Item.css";
-import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({ data }) => {
   const { title, image, price } = data;

@@ -6,7 +6,7 @@ function CartWidget() {
       <div class="nav-item alfa">
         <a class="nav-link active" href="g">
           <i class="fa-solid fa-cart-shopping"></i>
-          Carrito
+          <h7>Carrito</h7>
         </a>
       </div>
     </div>
