@@ -1,13 +1,42 @@
 .item-product {
-    padding: 1em;
-    margin: 1px;
-    border-radius: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid rgb(59, 59, 59);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
 }
 
 .item-product img {
     width: 100%;
     border-radius: 30px;
+    padding-right: 20px;
+}
+
+.titulo {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.categoria {
+    padding-top: 20px;
+    font-size: small;
+}
+
+.descripcion {
+    padding-top: 20px;
+}
+
+.precio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contador {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.alfa {
+    align-items: center;
 }

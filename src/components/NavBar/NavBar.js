@@ -3,49 +3,49 @@ import CartWidget from "./CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-light navbar-expand-md fixed-bottom back">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="g">
+    <nav className="navbar navbar-light navbar-expand-md fixed-bottom back">
+      <div className="container">
+        <a className="navbar-brand d-flex align-items-center" href="g">
           <img src="/assets/logoartebocono.png" width="120px" alt="Nav" />
         </a>
         <button
           data-bs-toggle="collapse"
-          class="navbar-toggler"
+          className="navbar-toggler"
           data-bs-target="#navcol-3"
         >
-          <span class="visually-hidden">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
+          <span className="visually-hidden">Toggle navigation</span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navcol-3">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item alfa">
-              <a class="nav-link active" href="g">
-                <i class="fa-solid fa-house"></i>
-                <h7>Inicio</h7>
+        <div className="collapse navbar-collapse" id="navcol-3">
+          <ul className="navbar-nav mx-auto">
+            <li className="nav-item alfa">
+              <a className="nav-link active" href="g">
+                <i className="fa-solid fa-house"></i>
+                Inicio
               </a>
             </li>
-            <li class="nav-item alfa">
-              <a class="nav-link active" href="g">
-                <i class="fa-solid fa-store"></i>
-                <h7>Tienda</h7>
+            <li className="nav-item alfa">
+              <a className="nav-link active" href="g">
+                <i className="fa-solid fa-store"></i>
+                Tienda
               </a>
             </li>
-            <li class="nav-item alfa">
-              <a class="nav-link active" href="g">
-                <i class="fa-solid fa-people-group"></i>
-                <h7>Nosotros</h7>
+            <li className="nav-item alfa">
+              <a className="nav-link active" href="g">
+                <i className="fa-solid fa-people-group"></i>
+                Nosotros
               </a>
             </li>
-            <li class="nav-item alfa">
-              <a class="nav-link active" href="g">
-                <i class="fa-solid fa-phone"></i>
-                <h7>Contacto</h7>
+            <li className="nav-item alfa">
+              <a className="nav-link active" href="g">
+                <i className="fa-solid fa-phone"></i>
+                Contacto
               </a>
             </li>
-            <li class="nav-item alfa">
-              <a class="nav-link active" href="g">
-                <i class="fa-solid fa-circle-question"></i>
-                <h7>FAQ</h7>
+            <li className="nav-item alfa">
+              <a className="nav-link active" href="g">
+                <i className="fa-solid fa-circle-question"></i>
+                FAQ
               </a>
             </li>
           </ul>

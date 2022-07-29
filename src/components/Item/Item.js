@@ -8,7 +8,7 @@ const ItemDetail = ({ data }) => {
       <img src={`/assets/${image}`} alt="Producto" />
       <p>{title}</p>
       <p>$ {price}</p>
-      <button type="button" class="btn btn-primary">
+      <button type="button" className="btn btn-primary">
         Detalles
       </button>
     </div>

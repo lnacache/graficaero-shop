@@ -3,10 +3,10 @@ import "./CartWidget.css";
 function CartWidget() {
   return (
     <div>
-      <div class="nav-item alfa">
-        <a class="nav-link active" href="g">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <h7>Carrito</h7>
+      <div className="nav-item alfa">
+        <a className="nav-link active" href="g">
+          <i className="fa-solid fa-cart-shopping"></i>
+          Carrito
         </a>
       </div>
     </div>

@@ -1,13 +1,6 @@
-.list-products {
-padding: 1em;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-gap: 5px;
-}
-
-.headline{
-    padding: 10px;
-    display: grip;
-    text-align: center;
-    text-transform: uppercase;
+.list-item-detail {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
 }
